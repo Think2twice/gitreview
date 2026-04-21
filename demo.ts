@@ -28,3 +28,6 @@ function displayUser(user: User): void {
 // Main execution
 const randomUser = generateRandomUser();
 displayUser(randomUser);
+displayUser(generateRandomUser());
+displayUser(generateRandomUser());
+//add more random users as needed
